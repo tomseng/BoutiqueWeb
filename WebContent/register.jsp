@@ -9,7 +9,7 @@
 <body>
 <br>
 <form action="register.jsp" method="post">  
-Name:<input type="text" name="name"/><br><br/>  
+Name:<input type="text" name="username"/><br><br/>  
 Password:<input type="password" name="password"/><br><br/>  
 Email :<input type="text" name="email"/><br><br/>  
 <input type="submit" value="S'enregistrer"/>  

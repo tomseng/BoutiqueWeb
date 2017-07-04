@@ -11,7 +11,16 @@
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
-         
+          <servlet>
+        <display-name>User</display-name>
+        <servlet-name>User</servlet-name>
+        <servlet-class>dao.UserControllerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <display-name>Success</display-name>
+        <servlet-name>Success</servlet-name>
+        <servlet-class>dao.SucessServlet</servlet-class>
+    </servlet>
          
          
 </web-app>
