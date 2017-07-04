@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 4 juil. 2017 16:08:22 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="tables.Produit" table="PRODUIT">
+        <id name="idProduit" type="int">
+            <column name="IDPRODUIT" />
+            <generator class="assigned" />
+        </id>
+        <property name="nomProduit" type="java.lang.String">
+            <column name="NOMPRODUIT" />
+        </property>
+        <property name="descProduit" type="java.lang.String">
+            <column name="DESCPRODUIT" />
+        </property>
+    </class>
+</hibernate-mapping>
